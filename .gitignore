@@ -7,6 +7,9 @@
 # Ignore bundler config
 /.bundle
 
+/log
+*.swp
+
 # vendor ruby
 /vendor/ruby
 /vendor/bundle

@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'action_args'
 gem 'pry'
+gem 'annotate'
 
 # Use unicorn or puma as the app server
 # gem 'unicorn'
