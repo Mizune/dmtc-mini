@@ -22,7 +22,7 @@ feature :Page, %q{
     get "/pages", from: '20131019000000', to: '20131019235959'
     response.status.should eq(200)
     body = JSON.parse( response.body )
-    expect(body['pages'].size).to eq 101
+    expect(body['pages'].size).to eq 100
 
     first_res = body['pages'].first
     last_page = Page.last
