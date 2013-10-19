@@ -6,6 +6,7 @@ feature :Page, %q{
 
   background do
     create_list(:page, 101, :with_revision)
+    create(:page, :with_revision, page_is_redirect: 1)
   end
 
   scenario 'Page count' do
