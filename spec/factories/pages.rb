@@ -6,6 +6,7 @@ FactoryGirl.define do
     page_random { rand }
     page_latest 0
     page_len 0
+    sequence(:page_touched, 19000101000000)
 
     trait :with_revision do
       after :create do |page|
